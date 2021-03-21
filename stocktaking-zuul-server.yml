@@ -1,0 +1,14 @@
+server:
+  port: 8090
+zuul:
+  sensitive-headers:
+      - Cookie
+      - Set-Cookie
+  routes:
+    productos:
+      service-id: stocktaking-ms-usuarios
+      path: /api/usuarios/**
+    ignored-services: "*"
+ribbon:
+  ConnectTimeout: 9000
+  ReadTimeout: 30000
