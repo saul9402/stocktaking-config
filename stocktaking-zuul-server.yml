@@ -5,10 +5,13 @@ zuul:
       - Cookie
       - Set-Cookie
   routes:
-    productos:
+    usuarios:
       service-id: stocktaking-ms-usuarios
       path: /api/usuarios/**
+    autenticacion:
+      service-id: stocktaking-ms-autenticacion
+      path: /api/autenticacion/**
     ignored-services: "*"
 ribbon:
-  ConnectTimeout: 9000
+  ConnectTimeout: 90000
   ReadTimeout: 30000
