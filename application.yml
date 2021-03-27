@@ -6,6 +6,9 @@ config:
         secret: Ks2-Lsm54.Qmcn
       jwt:
         key: omfospmfomwpoPDMSPEOFMPOMPOmpomfp.seomfpowsmpfoampovmrpovmpo.spfonvpompvioqempvin.dfinvpinfpvinaspivnpid.fnvpidnf.pvindfpivnpdifnvpin76543567
+time-validity:
+  token:
+  refresh-token: 
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/db_stocktaking?serverTimezone=America/Mexico_City&useSSL=false
