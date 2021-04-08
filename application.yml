@@ -3,7 +3,7 @@ config:
     oauth:
       client:
         id: stocktaking-client-id
-        secret: Ks2-Lsm54.Qmcn
+        secret: $2a$10$3sbj9nu8uw6vb6M2FLZht.VQK6XcmTu4.jmanAaAJGBQP/bhUsHOS
       jwt:
         key: omfospmfomwpoPDMSPEOFMPOMPOmpomfp.seomfpowsmpfoampovmrpovmpo.spfonvpompvioqempvin.dfinvpinfpvinaspivnpid.fnvpidnf.pvindfpivnpdifnvpin76543567
 time-validity:
